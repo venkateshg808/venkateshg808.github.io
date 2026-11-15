@@ -1,17 +1,16 @@
-const menu=document.querySelector('#menu'),nav=document.querySelector('#nav');menu.addEventListener('click',()=>{const open=nav.classList.toggle('open');menu.setAttribute('aria-expanded',String(open));menu.setAttribute('aria-label',open?'Close navigation':'Open navigation')});nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{nav.classList.remove('open');menu.setAttribute('aria-expanded','false');menu.setAttribute('aria-label','Open navigation')}));const theme=document.querySelector('#theme');function setTheme(dark){document.body.classList.toggle('dark',dark);theme.setAttribute('aria-label',dark?'Switch to light theme':'Switch to dark theme');theme.setAttribute('aria-pressed',String(dark))}try{setTheme(localStorage.getItem('vg-theme')==='dark')}catch{}theme.addEventListener('click',()=>{const dark=!document.body.classList.contains('dark');setTheme(dark);try{localStorage.setItem('vg-theme',dark?'dark':'light')}catch{}});const papers=[...document.querySelectorAll('.pub')];
-const filters=[...document.querySelectorAll('.filters button')];
-const search=document.querySelector('#pub-search'),more=document.querySelector('#show-more');
-let category='all',limit=8;
-function updatePublications(){
- const query=search.value.trim().toLowerCase();
- const matched=papers.filter(p=>(category==='all'||p.dataset.category===category)&&p.textContent.toLowerCase().includes(query));
- const visible=new Set(matched.slice(0,limit));
- papers.forEach(p=>p.hidden=!visible.has(p));
- document.querySelector('#results').textContent=`Showing ${visible.size} of ${matched.length} ${matched.length===1?'entry':'entries'}`;
- more.hidden=matched.length<=limit;
- more.textContent=`Show more publications (${Math.min(8,matched.length-limit)} more)`;
-}
-filters.forEach(b=>b.addEventListener('click',()=>{category=b.dataset.category;limit=8;filters.forEach(x=>{x.classList.toggle('active',x===b);x.setAttribute('aria-pressed',String(x===b))});updatePublications()}));
-search.addEventListener('input',()=>{limit=8;updatePublications()});
-more.addEventListener('click',()=>{limit+=8;updatePublications()});
-updatePublications();
+const theme = document.querySelector('#theme');
+try { document.body.classList.toggle('dark', localStorage.getItem('theme') === 'dark'); } catch {}
+function themeLabel(){ theme.setAttribute('aria-label', document.body.classList.contains('dark') ? 'Switch to light theme' : 'Switch to dark theme'); }
+themeLabel();
+theme.addEventListener('click',()=>{document.body.classList.toggle('dark');themeLabel();try{localStorage.setItem('theme',document.body.classList.contains('dark')?'dark':'light');}catch{}});
+const menu=document.querySelector('#menu'),nav=document.querySelector('#nav');
+menu.addEventListener('click',()=>{const open=nav.classList.toggle('open');menu.setAttribute('aria-expanded',String(open));menu.setAttribute('aria-label',open?'Close navigation':'Open navigation');});
+nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{nav.classList.remove('open');menu.setAttribute('aria-expanded','false');menu.setAttribute('aria-label','Open navigation');}));
+let year='all';const expanded=new Set(),search=document.querySelector('#pub-search');
+function filterPublications(){let total=0;const q=search.value.trim().toLocaleLowerCase();document.querySelectorAll('.pub-group').forEach(group=>{const all=[...group.querySelectorAll('.pub')],matches=all.filter(p=>(year==='all'||p.dataset.year===year)&&(!q||p.textContent.toLocaleLowerCase().includes(q)));total+=matches.length;all.forEach(p=>p.hidden=true);const limit=expanded.has(group.dataset.group)?matches.length:6;matches.slice(0,limit).forEach(p=>p.hidden=false);group.hidden=!matches.length;group.querySelector('.count-badge').textContent=matches.length+' '+(matches.length===1?'entry':'entries');const more=group.querySelector('.group-more');more.hidden=matches.length<=6;more.textContent=expanded.has(group.dataset.group)?'Show fewer entries':'Show all '+matches.length+' entries';more.setAttribute('aria-expanded',String(expanded.has(group.dataset.group)));});document.querySelector('#results').textContent=total+' '+(total===1?'entry':'entries')+(year==='all'?' across all years':' in '+year);}
+document.querySelectorAll('[data-year].active,button[data-year]').forEach(button=>{if(button.tagName!=='BUTTON')return;button.setAttribute('aria-pressed',String(button.dataset.year===year));button.addEventListener('click',()=>{year=button.dataset.year;expanded.clear();document.querySelectorAll('button[data-year]').forEach(b=>{b.classList.toggle('active',b===button);b.setAttribute('aria-pressed',String(b===button));});filterPublications();});});
+search.addEventListener('input',()=>{expanded.clear();filterPublications();});
+document.querySelectorAll('.group-more').forEach(button=>button.addEventListener('click',()=>{const key=button.dataset.expand;expanded.has(key)?expanded.delete(key):expanded.add(key);filterPublications();}));filterPublications();
+const links=[...nav.querySelectorAll('a')];
+const observer=new IntersectionObserver(entries=>{entries.forEach(entry=>{if(entry.isIntersecting)links.forEach(a=>a.classList.toggle('active',a.hash==='#'+entry.target.id));});},{rootMargin:'-15% 0px -65% 0px'});
+links.forEach(a=>{const section=document.querySelector(a.hash);if(section)observer.observe(section);});
