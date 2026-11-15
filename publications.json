@@ -1,0 +1,442 @@
+[
+  {
+    "id": "J11",
+    "title": "Re-balancing the Air Interface: A Cross-Layer Framework for Uplink Elasticity in AI-Native 6G",
+    "authors": "Mozhan K., Manoj S. K., Linqi X., Aparaajitha G. L., Larry J. H., K. Kondepu, V. Gudepu, and Andrea F.",
+    "venue": "IEEE Communications Magazine (COMMAG) (Under Review)",
+    "category": "review",
+    "year": "",
+    "link": "",
+    "label": ""
+  },
+  {
+    "id": "J10",
+    "title": "Securing the AI-Native Open RAN Toward 6G: Quantifying the Defense Gap with Specification-Derived Attack-Defense Graphs",
+    "authors": "Linqi X., Rozhin S., Aparaajitha G. L., V. Gudepu, and Andrea F.",
+    "venue": "IEEE Journal on Selected Areas in Communications (JSAC) (Under Review)",
+    "category": "review",
+    "year": "",
+    "link": "",
+    "label": ""
+  },
+  {
+    "id": "J9",
+    "title": "AlarmBench: A Multi-Vendor Testbed-Calibrated Benchmark for Alarm Root-Cause Localization in Optical Transport Networks",
+    "authors": "Linqi X., Moojan K., Aparaajitha G. L., Muhammad R. R., V. Gudepu, and Andrea F.",
+    "venue": "Journal of Optical Communications and Networking (JOCN) (Under Review)",
+    "category": "review",
+    "year": "",
+    "link": "",
+    "label": ""
+  },
+  {
+    "id": "J8",
+    "title": "Joint Alarm Correlation and Root Alarm Localization in Optical Transport Networks via Synthetic Training",
+    "authors": "Linqi X., V. Gudepu, and Andrea F.",
+    "venue": "Journal of Optical Communications and Networking (JOCN) (Under Review)",
+    "category": "review",
+    "year": "",
+    "link": "",
+    "label": ""
+  },
+  {
+    "id": "J7",
+    "title": "Toward Hybrid M-Plane Validation in O-RAN: Test Cases and Lessons Learned from Commercial and Software O-RUs",
+    "authors": "Aparaajitha G. L., Linqi X., V. Gudepu, Larry J. Horner, Alexandru Stancu, Martin Skorupski, Gi Vania, Martin Birk, Tracy Van Brakle, John Duong, Angelica Moden, and Andrea F.",
+    "venue": "IEEE Communications Magazine (Under Review)",
+    "category": "review",
+    "year": "",
+    "link": "",
+    "label": ""
+  },
+  {
+    "id": "J6",
+    "title": "Experimenting with OpenROADM and OpenConfig to Control Multi-Vendor IPoDWDM and Xponder-Based Transport Networks",
+    "authors": "Moojan K., Aparaajitha G. L., Tianling Z., Larry J. H., V. Gudepu, Andrea F., Roberto M., Soichiro K., and Mikio H.",
+    "venue": "Journal of Optical Communications and Networking (JOCN).",
+    "category": "journal",
+    "year": "",
+    "link": "https://doi.org/10.1364/JOCN.589195",
+    "label": "DOI"
+  },
+  {
+    "id": "J5",
+    "title": "MOVE-CU: Multi-Vendor OpenROADM Enables Virtual Environment Achieve CU-UP Migration in 5G Radio Network",
+    "authors": "Abhishek B., Linqi X., Aparaajitha G. L., Nathan E., Muhammad R. R., V. Gudepu, Andrea F., and K. Kondepu",
+    "venue": "Journal of Optical Communications and Networking (JOCN).",
+    "category": "journal",
+    "year": "",
+    "link": "https://doi.org/10.1364/JOCN.574058",
+    "label": "DOI"
+  },
+  {
+    "id": "J4",
+    "title": "GEN-DRIFT: Generative AI-Driven Drift Handling for Beyond 5G Networks",
+    "authors": "V. Gudepu, B. Chirumamila, V. R. Chintapalli, P. Castoldi, L. Valcarenghi, B. R. Tamma, and K. Kondepu",
+    "venue": "Computer Networks (CN), vol. 263, p. 111237, 2025.",
+    "category": "journal",
+    "year": "2025",
+    "link": "https://doi.org/10.1016/j.comnet.2025.111237",
+    "label": "DOI"
+  },
+  {
+    "id": "J3",
+    "title": "The Drift Handling Framework for Open Radio Access Networks: An Experimental Evaluation",
+    "authors": "V. Gudepu, V. R. Chintapalli, P. Castoldi, L. Valcarenghi, B. R. Tamma, and K. Kondepu",
+    "venue": "Computer Networks (CN), vol. 243, p. 110290, 2024.",
+    "category": "journal",
+    "year": "2024",
+    "link": "https://doi.org/10.1016/j.comnet.2024.110290",
+    "label": "DOI"
+  },
+  {
+    "id": "J2",
+    "title": "End-to-End Slicing of RAN Based on Next-Generation Optical Access Network",
+    "authors": "C. Centofanti, A. Marotta, V. Gudepu, D. Cassioli, F. Graziosi, H. Roberts, C. Bernard, and K. Kondepu",
+    "venue": "Photonic Network Communications (PNET), 2024.",
+    "category": "journal",
+    "year": "2024",
+    "link": "https://doi.org/10.1007/s11107-024-01020-9",
+    "label": "DOI"
+  },
+  {
+    "id": "J1",
+    "title": "Impact of Power Consumption in Containerized Clouds: A Comprehensive Analysis of Open-Source Power Measurement Tools",
+    "authors": "C. Centofanti, J. Santos, V. Gudepu, and K. Kondepu",
+    "venue": "Computer Networks (CN), vol. 245, p. 110371, 2024.",
+    "category": "journal",
+    "year": "2024",
+    "link": "https://doi.org/10.1016/j.comnet.2024.110371",
+    "label": "DOI"
+  },
+  {
+    "id": "R1",
+    "title": "Agentic Telco: Threat Landscape for 6G Networks",
+    "authors": "V. Gudepu (Editor and Contributor), R. Sinha, C. Fernandes, A. Agarwal, B. Kurz, S. Bao, A. Ngye, K. Thomas, L. Xiao, Aparaajitha G. L., and A. Fumagalli",
+    "venue": "O-RAN Alliance Next Generation Research Group (nGRG), Research Stream 04 (RS-04) Research Report, 2026",
+    "category": "report",
+    "year": "2026",
+    "link": "",
+    "label": ""
+  },
+  {
+    "id": "C32",
+    "title": "CORA: A Conversational AI-Agent for Intelligent Automation of OpenROADM Multi-Vendor Optical Transport Networks",
+    "authors": "Linqi X., V. Gudepu, and Andrea F.",
+    "venue": "in Applications of Machine Learning 2026, SPIE Optics + Photonics 2026, Proceedings of SPIE, 2026.",
+    "category": "conference",
+    "year": "2026",
+    "link": "https://doi.org/10.1117/12.3113861",
+    "label": "DOI"
+  },
+  {
+    "id": "C31",
+    "title": "PRO-RAN: Processor-Level Characterization of Open RAN Centralized and Distributed Units",
+    "authors": "Moojan K., Larry J. Horner, V. Gudepu, Linqi X., Abhishek B., Ehsan B., Padmapriya P., and Andrea F.",
+    "venue": "in ACM Open-AI RAN 2026 Workshop, in conjunction with ACM MobiCom 2026 (Under Review)",
+    "category": "review",
+    "year": "2026",
+    "link": "",
+    "label": ""
+  },
+  {
+    "id": "C30",
+    "title": "Opening the Black Box: An Open-Source Harness for Zero-Touch Testing of Commercial O-RUs",
+    "authors": "Linqi X., Abhishek B., Moojan K., V. Gudepu, Larry J. Horner, and Andrea F.",
+    "venue": "in 20th ACM Workshop on Wireless Network Testbeds, Experimental Evaluation & Characterization (WiNTECH 2026)",
+    "category": "conference",
+    "year": "2026",
+    "link": "",
+    "label": ""
+  },
+  {
+    "id": "C29",
+    "title": "An OpenROADM Optical Network Emulator with Device Persona and Physical Transmission Awareness",
+    "authors": "Aparaajitha G. L., Linqi X., Muhammad R. R., Nathan E., Tianliang Z., V. Gudepu, and Andrea F.",
+    "venue": "in 26th International Conference on Transparent Optical Networks (ICTON 2026) (Invited).",
+    "category": "conference",
+    "year": "2026",
+    "link": "https://doi.org/10.1109/ICTON71309.2026.11705327",
+    "label": "DOI"
+  },
+  {
+    "id": "C28",
+    "title": "Implementation of Hybrid QoS-Aware Data Radio Bearer in 5G Networks",
+    "authors": "Padma Priya P., Abhishek B., V. Gudepu, K. Kondepu, and Andrea F.",
+    "venue": "in 17th International Conference on Network of the Future (NoF 2026).",
+    "category": "conference",
+    "year": "2026",
+    "link": "https://doi.org/10.48550/arXiv.2610.03209",
+    "label": "Preprint"
+  },
+  {
+    "id": "C27",
+    "title": "ADG-ORAN: Attack-Defense Graphs for Open RAN Security Analysis",
+    "authors": "Linqi X., Rozhin S., Aparaajitha G. L., V. Gudepu, and Andrea F.",
+    "venue": "in IEEE Military Communications Conference (MILCOM), 2026",
+    "category": "conference",
+    "year": "2026",
+    "link": "",
+    "label": ""
+  },
+  {
+    "id": "C26",
+    "title": "A YANG-Grounded LLM Agent Supporting Multi-Vendor OpenROADM Optical Transport Networks",
+    "authors": "Aparaajitha G. L., Linqi X., V. Gudepu, and Andrea F.",
+    "venue": "in SIGCOMM 2026 Workshop on Hot Topics in Optical Technologies and Applications in Networking (HotOptics 2026).",
+    "category": "conference",
+    "year": "2026",
+    "link": "https://doi.org/10.1145/3789240.3822606",
+    "label": "DOI"
+  },
+  {
+    "id": "C25",
+    "title": "ADORN: Adaptive Drift Handling for Open RAN Using Reinforcement Learning",
+    "authors": "A. Subudhi, B. Chirumamilla, S. Vaishnav, M. C. Hlophe, Praveen Kumar D., Andrea Fumagalli, V. Gudepu, and K. Kondepu",
+    "venue": "in European Wireless 2026 (EW 2026).",
+    "category": "conference",
+    "year": "2026",
+    "link": "https://arxiv.org/abs/2607.08443",
+    "label": "Preprint"
+  },
+  {
+    "id": "C24",
+    "title": "Demo: A Drift-Handling Automation in AI/ML Framework Integrated O-RAN",
+    "authors": "V. Gani, Dhrvu, L. S. Yaswanth Kumar, A. Subudhi, K. Majid, A. Bhattacharyya, V. Gudepu, B. R. Tamma, and K. Kondepu",
+    "venue": "in The 31st Annual International Conference on Mobile Computing and Networking (MobiCom 2025).",
+    "category": "conference",
+    "year": "2025",
+    "link": "https://doi.org/10.1145/3737900.3770176",
+    "label": "DOI"
+  },
+  {
+    "id": "C23",
+    "title": "EXODUS-5G: Emergency eXecution of Orchestrated Displacement of 5G CU-UP Using O-RAN RICs",
+    "authors": "Aparaajitha G. L., Linqi X., Abhishek B., Larry J. Horner, K. Kondepu, Gi Vania, V. Gudepu, and Andrea F.",
+    "venue": "in IEEE Conference on Network Function Virtualization and Software Defined Networks (NFV-SDN), 2025.",
+    "category": "conference",
+    "year": "2025",
+    "link": "https://doi.org/10.1109/NFV-SDN66355.2025.11349607",
+    "label": "DOI"
+  },
+  {
+    "id": "C22",
+    "title": "(Demo) Robotic Process Automation Testing and Validation Platform for Open-Source 5G Stack",
+    "authors": "Linqi X., Abhishek B., Aparaajitha G. L., Larry J. Horner, K. Kondepu, Gi Vania, V. Gudepu, and Andrea F.",
+    "venue": "in IEEE International Workshop on Computer Aided Modeling and Design of Communication Links and Networks (CAMAD), 2025.",
+    "category": "conference",
+    "year": "2025",
+    "link": "https://doi.org/10.1109/CAMAD67323.2025.11229919",
+    "label": "DOI"
+  },
+  {
+    "id": "C21",
+    "title": "ACT-RIC: Adaptive Cyber Threat Handling and CU-UP Migration via O-RAN Near-RT RIC",
+    "authors": "Aparaajitha G. L., Linqi X., Abhishek B., K. Kondepu, V. Gudepu, and Andrea F.",
+    "venue": "in IEEE Military Communications Conference (MILCOM), 2025.",
+    "category": "conference",
+    "year": "2025",
+    "link": "https://doi.org/10.1109/MILCOM64451.2025.11310035",
+    "label": "DOI"
+  },
+  {
+    "id": "C20",
+    "title": "Joint Alarm Correlation and Root Alarm Detection in Optical Transport Networks with Graph-Attention",
+    "authors": "Linqi X., V. Gudepu, and Andrea F.",
+    "venue": "in IEEE International Workshop on Computer Aided Modeling and Design of Communication Links and Networks (CAMAD), 2025.",
+    "category": "conference",
+    "year": "2025",
+    "link": "https://doi.org/10.1109/CAMAD67323.2025.11229899",
+    "label": "DOI"
+  },
+  {
+    "id": "C19",
+    "title": "Energy Profiling of RICs in O-RAN: Towards Sustainable B5G Networks",
+    "authors": "Nathan E., Abhishek B., V. Gudepu, and Andrea F.",
+    "venue": "in IEEE International Workshop on Computer Aided Modeling and Design of Communication Links and Networks (CAMAD), 2025.",
+    "category": "conference",
+    "year": "2025",
+    "link": "https://doi.org/10.1109/CAMAD67323.2025.11229897",
+    "label": "DOI"
+  },
+  {
+    "id": "C18",
+    "title": "Multi-Vendor OpenROADM Testbed Supporting the Live-Migration of a 5G gNB-CU-UP Container",
+    "authors": "Abhishek B., Linqi X., Aparaajitha G. L., Nathan E., Muhammad R. R., V. Gudepu, Andrea F., and K. Kondepu",
+    "venue": "in 2025 International Conference on Optical Network Design and Modeling (ONDM).",
+    "category": "conference",
+    "year": "2025",
+    "link": "https://doi.org/10.23919/ONDM65745.2025.11029220",
+    "label": "DOI"
+  },
+  {
+    "id": "C17",
+    "title": "O-RIDE: Open-RAN Innovation and Deployments Exploration",
+    "authors": "K. Kondepu, B. R. Tamma, and V. Gudepu",
+    "venue": "in 26th International Conference on Distributed Computing and Networking (ICDCN 2025), January 04–07, 2025, Hyderabad, India.",
+    "category": "conference",
+    "year": "2025",
+    "link": "https://doi.org/10.1145/3700838.3703690",
+    "label": "DOI"
+  },
+  {
+    "id": "C16",
+    "title": "An Energy Measurement Framework for 5G RAN Using USRP and Real-Time Monitoring",
+    "authors": "C. Centifonti, V. Gudepu, J. Santos, R. R. Tella, A. Marotta, F. Graziosi, and K. Kondepu",
+    "venue": "in 2024 IEEE International Conference on Advanced Networks and Telecommunications Systems (ANTS).",
+    "category": "conference",
+    "year": "2024",
+    "link": "https://doi.org/10.1109/ANTS63515.2024.10898669",
+    "label": "DOI"
+  },
+  {
+    "id": "C15",
+    "title": "Resource Profiling for Virtualized Radio Access Networks",
+    "authors": "R. R. Tella, U. Gupta, V. Gudepu, V. R. Chintapalli, B. R. Tamma, and K. Kondepu",
+    "venue": "in 2024 IEEE International Conference on Advanced Networks and Telecommunications Systems (ANTS).",
+    "category": "conference",
+    "year": "2024",
+    "link": "https://doi.org/10.1109/ANTS63515.2024.10898904",
+    "label": "DOI"
+  },
+  {
+    "id": "C14",
+    "title": "Integrating Explainable AI for Energy-Efficient Open Radio Access Networks",
+    "authors": "L. Malakalapalli, V. Gudepu, B. Chirumamilla, S. J. Yadhunandan, and K. Kondepu",
+    "venue": "in 2024 IEEE Future Networks World Forum (FNWF).",
+    "category": "conference",
+    "year": "2024",
+    "link": "https://doi.org/10.48550/arXiv.2504.18029",
+    "label": "Preprint"
+  },
+  {
+    "id": "C13",
+    "title": "Performance Evaluation of Scheduling Scheme in O-RAN 5G Network Using NS-3",
+    "authors": "A. K. Subudhi, A. Piccioni, V. Gudepu, A. Marotta, F. Graziosi, R. M. Hegde, and K. Kondepu",
+    "venue": "in 2024 IEEE Future Networks World Forum (FNWF).",
+    "category": "conference",
+    "year": "2024",
+    "link": "https://doi.org/10.48550/arXiv.2504.00417",
+    "label": "Preprint"
+  },
+  {
+    "id": "C12",
+    "title": "GAN-Based Drift and Anomaly Detection for Open Radio Access Networks",
+    "authors": "V. Gudepu, B. Chirumamilla, V. R. Chintapalli, P. Castoldi, L. Valcarenghi, B. R. Tamma, D. Kataria, and K. Kondepu",
+    "venue": "in IEEE International Conference on High Performance Switching and Routing (HPSR), 2024.",
+    "category": "conference",
+    "year": "2024",
+    "link": "https://doi.org/10.1109/HPSR62440.2024.10635911",
+    "label": "DOI"
+  },
+  {
+    "id": "C11",
+    "title": "Demonstrating the Energy Consumption of Radio Access Networks in Container Clouds",
+    "authors": "V. Gudepu, R. R. Tella, C. Centofanti, J. Santos, A. Marotta, and K. Kondepu",
+    "venue": "in IEEE/IFIP Network Operations and Management Symposium (NOMS), 2024.",
+    "category": "conference",
+    "year": "2024",
+    "link": "https://doi.org/10.1109/NOMS59830.2024.10575134",
+    "label": "DOI"
+  },
+  {
+    "id": "C10",
+    "title": "EARNEST: Experimental Analysis of RAN Energy with Open-Source Software Tools",
+    "authors": "V. Gudepu, B. Chirumamilla, R. R. Tella, A. Bhattacharyya, S. Agarwal, L. Malakalapalli, C. Centofanti, J. Santos, and K. Kondepu",
+    "venue": "in 2024 16th International Conference on COMmunication Systems and NETworks (COMSNETS), 2024, pp. 1148–1153.",
+    "category": "conference",
+    "year": "2024",
+    "link": "https://doi.org/10.1109/COMSNETS59351.2024.10427350",
+    "label": "DOI"
+  },
+  {
+    "id": "C9",
+    "title": "AI/ML Model Training in O-RAN: Assessing Datasets for Hoarding and Choosing Strategies",
+    "authors": "V. Gudepu, B. Chirumamilla, V. R. Chintapalli, P. Castoldi, L. Valcarenghi, and K. Kondepu",
+    "venue": "in 2023 IEEE International Conference on Advanced Networks and Telecommunications Systems (ANTS), 2023, pp. 1–3.",
+    "category": "conference",
+    "year": "2023",
+    "link": "https://doi.org/10.1109/ANTS59832.2023.10468670",
+    "label": "DOI"
+  },
+  {
+    "id": "C8",
+    "title": "Generative Adversarial Networks-Based AI/ML Model Adaptive Retraining for Beyond 5G Networks",
+    "authors": "V. Gudepu, B. Chirumamilla, V. Reddy Chintapalli, P. Castoldi, L. Valcarenghi, and K. Kondepu",
+    "venue": "in European Wireless 2023; 28th European Wireless Conference, 2023, pp. 224–229.",
+    "category": "conference",
+    "year": "2023",
+    "link": "https://ieeexplore.ieee.org/document/10461408",
+    "label": "IEEE Xplore"
+  },
+  {
+    "id": "C7",
+    "title": "Adaptive Retraining of AI/ML Model for Beyond 5G Networks: A Predictive Approach",
+    "authors": "V. Gudepu, V. R. Chintapalli, P. Castoldi, L. Valcarenghi, B. R. Tamma, and K. Kondepu",
+    "venue": "in 2023 IEEE 9th International Conference on Network Softwarization (NetSoft), 2023, pp. 282–286.",
+    "category": "conference",
+    "year": "2023",
+    "link": "https://doi.org/10.1109/NetSoft57336.2023.10175451",
+    "label": "DOI"
+  },
+  {
+    "id": "C6",
+    "title": "End-to-End Slicing via O-RAN and Software Defined Optical Access",
+    "authors": "C. Centofanti, A. Marotta, D. Cassioli, F. Graziosi, V. Gudepu, and K. Kondepu",
+    "venue": "in Optical Fiber Communication Conference (OFC), Optica Publishing Group, 2023, p. W3F.4.",
+    "category": "conference",
+    "year": "2023",
+    "link": "https://doi.org/10.1364/OFC.2023.W3F.4",
+    "label": "DOI"
+  },
+  {
+    "id": "C5",
+    "title": "Exploiting Drift Detection Techniques for Next Generation Radio Access Networks",
+    "authors": "V. Gudepu, V. R. Chintapalli, L. Valcarenghi, and K. Kondepu",
+    "venue": "in 2023 15th International Conference on COMmunication Systems and NETworks (COMSNETS), 2023, pp. 489–491.",
+    "category": "conference",
+    "year": "2023",
+    "link": "https://doi.org/10.1109/COMSNETS56262.2023.10041395",
+    "label": "DOI"
+  },
+  {
+    "id": "C4",
+    "title": "End-to-End Slicing of RAN Based on Next Generation Optical Access Network",
+    "authors": "C. Centofanti, A. Marotta, V. Gudepu, D. Cassioli, F. Graziosi, H. Roberts, C. Bernard, and K. Kondepu",
+    "venue": "in 2022 IEEE International Conference on Advanced Networks and Telecommunications Systems (ANTS), 2022, pp. 431–434.",
+    "category": "conference",
+    "year": "2022",
+    "link": "https://doi.org/10.1109/ANTS56424.2022.10227779",
+    "label": "DOI"
+  },
+  {
+    "id": "C3",
+    "title": "Edge Computing in Micro Data Centers for Firefighting in Residential Areas of Future Smart Cities",
+    "authors": "V. Gudepu, B. Pappu, T. Javvadi, R. Bassoli, F. H. Fitzek, L. Valcarenghi, D. V. N. Devi, and K. Kondepu",
+    "venue": "in 2022 International Conference on Electrical, Computer, Communications and Mechatronics Engineering (ICECCME), 2022, pp. 1–6.",
+    "category": "conference",
+    "year": "2022",
+    "link": "https://doi.org/10.1109/ICECCME55909.2022.9988101",
+    "label": "DOI"
+  },
+  {
+    "id": "C2",
+    "title": "WIP: Impact of AI/ML Model Adaptation on RAN Control Loop Response Time",
+    "authors": "V. R. Chintapalli, V. Gudepu, K. Kondepu, A. Sgambelluri, A. Franklin, B. R. Tamma, P. Castoldi, and L. Valcarenghi",
+    "venue": "in IEEE 23rd International Symposium on a World of Wireless, Mobile and Multimedia Networks (WoWMoM), 2022.",
+    "category": "conference",
+    "year": "2022",
+    "link": "https://doi.org/10.1109/WoWMoM54355.2022.00053",
+    "label": "DOI"
+  },
+  {
+    "id": "C1",
+    "title": "Physical Sciences: An Inspiration to the Neural Network Training",
+    "authors": "V. Gudepu, A. Gupta, and P. Kumar",
+    "venue": "in Proceedings of the International Conference on Paradigms of Computing, Communication and Data Sciences (PCCDS 2020), Springer Singapore, 2021.",
+    "category": "conference",
+    "year": "2021",
+    "link": "https://doi.org/10.1007/978-981-15-7533-4_66",
+    "label": "DOI"
+  }
+]
